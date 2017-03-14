@@ -2465,7 +2465,7 @@ html .master-slider .ms-timerbar {
 .owl-carousel.big-arrows > .owl-controls .owl-prev {
   left: -40px;
 }
-.owl-carousel.black-arrows > .owl-controls .owl-next,
+/*.owl-carousel.black-arrows > .owl-controls .owl-next,
 .owl-carousel.black-arrows > .owl-controls .owl-prev {
   width: 45px;
   height: 45px;
@@ -2479,13 +2479,13 @@ html .master-slider .ms-timerbar {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-}
-.owl-carousel.black-arrows > .owl-controls .owl-next {
+}*/
+/*.owl-carousel.black-arrows > .owl-controls .owl-next {
   right: 30px;
-}
-.owl-carousel.black-arrows > .owl-controls .owl-prev {
+}*/
+/*.owl-carousel.black-arrows > .owl-controls .owl-prev {
   left: 30px;
-}
+}*/
 .owl-carousel.black-arrows-bottom > .owl-controls .owl-next,
 .owl-carousel.black-arrows-bottom > .owl-controls .owl-prev {
   color: #FFF;
@@ -4128,12 +4128,12 @@ html .master-slider .ms-timerbar {
   display: block;
   width: 100%;
 }
-.portfolio-work .portfolio-work-nav,
+/*.portfolio-work .portfolio-work-nav,
 .portfolio-work-layout2 .portfolio-work-nav {
   position: absolute;
   bottom: 0;
   right: 0;
-}
+}*/
 .portfolio-work .portfolio-work-nav a,
 .portfolio-work-layout2 .portfolio-work-nav a {
   font-size: 17px;

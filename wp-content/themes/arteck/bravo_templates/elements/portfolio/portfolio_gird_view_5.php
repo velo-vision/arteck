@@ -38,7 +38,7 @@
 							</div><!-- .portfolio-work-img -->
 						</div>
 						<div class="portfolio-work-detail">
-							<h3 class="no-top-margin"><?php the_title();?></h3>
+							<h3 class="titulo-cat"><?php the_title();?></h3>
 						<!-- <?php the_excerpt();?> -->
 							<!-- <div class="margin-20"></div>
 							<a class="button" href="<?php the_permalink();?>"><?php esc_html_e('Buy This Photo','bs-smarty') ?></a>
