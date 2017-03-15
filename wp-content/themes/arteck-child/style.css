@@ -1,6 +1,6 @@
 /*
 Theme Name:     Arteck
-Description:    
+Description:
 Author:         admin
 Template:       arteck
 
@@ -10,7 +10,7 @@ Template:       arteck
 body, html {
 
 	font-family: 'Montserrat', sans-serif !important;
-	font-size: 1em !important; 
+	font-size: 1em !important;
 }
 
 h1, h2, h3, h4, h5, h6, span, p {
@@ -116,7 +116,7 @@ input[type=text], input[type=email], textarea {
     border-radius: 0px !important;
     font-weight: 200 !important;
     padding: 20px !important;
-} 
+}
 
 /*/* PROYECTOS */
 
@@ -272,3 +272,68 @@ input[type=text], input[type=email], textarea {
     text-transform: uppercase;
     margin: 13px 0 !important
 }
+
+
+
+
+/*medias*/
+
+@media only screen and (max-width: 1930px) and (min-width: 1600px){
+	.portfolio-work, .portfolio-work-layout2 {
+	    position: relative;
+	    overflow: auto;
+	    background-color: #1b1b1b;
+	    margin-top: 5%;
+	}
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1200px){
+	.portfolio-work, .portfolio-work-layout2 {
+			position: relative;
+			overflow: auto;
+			background-color: #1b1b1b;
+			margin-top: 25%;
+	}
+
+	.portfolio-work, .portfolio-work-layout2 {
+	    position: relative;
+	    overflow: auto;
+	    background-color: #ab3939;
+	    width: 68%;
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1024px){
+	.portfolio-work, .portfolio-work-layout2 {
+	    position: relative;
+	    overflow: auto;
+	    background-color: #1b1b1b;
+	    margin-top: 28% !important;
+	}
+}
+
+@media only screen and (max-width: 992px) and (min-width: 600px){
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 200px){
+	.portfolio-work, .portfolio-work-layout2 {
+	    position: relative;
+	    overflow: auto;
+	    background-color: #1b1b1b;
+	    margin-top: 50%;
+	}
+}
+
+/*.portfolio-work, .portfolio-work-layout2 {
+    position: relative;
+    overflow: auto;
+    background-color: #1b1b1b;
+    margin-top: 29%;
+}
+
+.portfolio-work, .portfolio-work-layout2 {
+    position: relative;
+    overflow: auto;
+    background-color: #ab3939;
+    width: 73%;
+}*/
