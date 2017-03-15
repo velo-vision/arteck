@@ -160,7 +160,11 @@
 						}
 						?>
 
+<<<<<<< HEAD
 						<article class="col-xxxl-12-5 col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 tam-img portfolio-item <?php echo esc_attr( $term_class ) ?>">
+=======
+						<article class="col-xxxl-12-5 col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item <?php echo esc_attr( $term_class ) ?> fotos-size-galeri">
+>>>>>>> 476003e0d3dc6dbfe62247343d35b28d8c684a33
 							<div class="portfolio-item-content popup-window-trigger"
 							     data-popup="#popup-portfolio-<?php echo esc_attr( get_the_ID() ); ?>">
 								<div class="portfolio-img">

@@ -4084,12 +4084,12 @@ html .master-slider .ms-timerbar {
 .portfolio-layout8 {
   margin-top: 30px;
 }
-.portfolio-work,
+/*.portfolio-work,
 .portfolio-work-layout2 {
   position: relative;
   overflow: auto;
   background-color: #1b1b1b;
-}
+}*/
 .portfolio-work .popup-window-close,
 .portfolio-work-layout2 .popup-window-close,
 .portfolio-work .popup-window-close.popup-window-close-light,
@@ -5422,10 +5422,10 @@ html .master-slider .ms-timerbar {
     float: right;
     width: 300px;
   }
-  .portfolio-work .portfolio-work-img {
+  /*.portfolio-work .portfolio-work-img {
     float: left;
     width: 580px;
-  }
+  }*/
 }
 @media (min-width: 1600px) {
   html .master-slider .container {
@@ -5441,19 +5441,19 @@ html .master-slider .ms-timerbar {
   html .master-slider .ms-nav-prev {
     right: 25px;
   }
-  .portfolio-work .portfolio-work-img {
+  /*.portfolio-work .portfolio-work-img {
     width: 740px;
-  }
+  }*/
 }
 @media (min-width: 1750px) {
-  .portfolio-work .portfolio-work-img {
+  /*.portfolio-work .portfolio-work-img {
     width: 940px;
-  }
+  }*/
 }
 @media (min-width: 1860px) {
-  .portfolio-work .portfolio-work-img {
+  /*.portfolio-work .portfolio-work-img {
     width: 1070px;
-  }
+  }*/
   html .master-slider .container {
     width: 1100px;
     padding-left: 170px;
