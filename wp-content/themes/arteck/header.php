@@ -125,7 +125,7 @@ if(bravo_get_option('gen_enable_preload')=='on') {
                         <a href="<?php echo esc_attr($value['url_social']); ?>"><?php echo ($value['icon_social']); ?></a>
                         <?php endforeach;endif;?>
                         <div class="col-sm-12 col-md-12 col-lg-12">
-                        <p>Developer by Velosoft</p>
+                        <p>by Velosoft</p>
                             
                         </div>
                     </div>
