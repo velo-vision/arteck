@@ -25,6 +25,15 @@ h1, h2, h3, h4, h5, h6, span, p {
 
 }
 
+li#menu-item-2259, #menu-item-2271, #menu-item-2276, #menu-item-2286  {
+    border-bottom: solid #fff 1px !important;
+}
+
+.main-navigation ul li.active > a, .main-navigation ul li.active > a:focus, .main-navigation ul li.current-menu-item > a, .main-navigation ul li.current-menu-item > a:focus {
+    color: #e2aa80 !important;
+    font-weight: 600;
+}
+
 #menu .menu-inner {
 
     min-height: 88% !important;
@@ -121,7 +130,7 @@ input[type=text], input[type=email], textarea {
 /*/* PROYECTOS */
 
 #all .button, #all .button-big, #all .button-border-light, #all .button-void, .bravo-services-tabs.vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab > a:hover, .bravo-services-tabs.vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab > a:focus, .profile-short:hover .profile-short-job, .main-navigation ul li.current-menu-item> a:after, .main-navigation ul li a:hover:after, input[type=submit], .owl-carousel.top-small-arrows > .owl-controls .owl-next:hover, .owl-carousel.top-small-arrows > .owl-controls .owl-prev:hover, html.csstransforms3d .pace .pace-progress, .main-navigation ul li a:after, #all .list-catgs a:after, .page-numbers .current, #all .button-long:hover {
-    background-color: transparent !important;
+    background-color: #fff !important;
 }
 
 .pagination-next {
@@ -240,7 +249,7 @@ input[type=text], input[type=email], textarea {
   height: 40px;
   font-size: 23px;
   line-height: 35px;
-  top: 103.5%;
+  top: 104%;
   margin-top: -19px;
   color: #FFF;
   background:transparent;
@@ -265,13 +274,26 @@ input[type=text], input[type=email], textarea {
   color: #fff !important;
   font-weight: bold !important;
   text-transform: uppercase;
-  margin: 20px 0 !important
+  margin: 20px 18px !important
 }
 
 /***galeria fotos**/
 .fotos-size-galeri{
   width: 400px !important;
   padding:20px !important;
+}
+
+.nopadding{
+  padding: 0px !important;
+}
+
+.page-numbers .current {
+  background-color: transparent !important;
+}
+
+#menu .menu-content {
+    padding: 0 30px; 
+    margin-bottom: 15px;
 }
 
 /**medias Query**/
@@ -334,6 +356,13 @@ input[type=text], input[type=email], textarea {
     left: 86%;
     border-radius: 50% !important;
   }
+    #menu.active {
+    left: 0px;
+  }
+  #menu .menu-container {
+    background: #000;
+    opacity: .8;
+}
 }
 
 @media screen and (min-width: 700px) and (max-width: 992px) {
@@ -344,6 +373,13 @@ input[type=text], input[type=email], textarea {
 .owl-carousel.black-arrows > .owl-controls .owl-next {
     right: 4%;
     border-radius: 50% !important;
+}
+  #menu.active {
+    left: 0px;
+  }
+    #menu .menu-container {
+    background: #000;
+    opacity: .8;
 }
 }
 
@@ -368,6 +404,13 @@ input[type=text], input[type=email], textarea {
 
 .portfolio-layout2, .portfolio-layout3, .portfolio-layout4, .portfolio-layout5, .portfolio-layout6, .portfolio-layout7, .portfolio-layout8 {
   margin-top: 0px !important;
+}
+  #menu.active {
+    left: 0px;
+  }
+    #menu .menu-container {
+    background: #000;
+    opacity: .8;
 }
 }
 

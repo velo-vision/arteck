@@ -5663,9 +5663,9 @@ html .master-slider .ms-timerbar {
     top: 70px;
     background-color: rgba(0, 0, 0, 0.92);
   }
-  #menu.active {
+/*  #menu.active {
     left: 30px;
-  }
+  }*/
   #menu-trigger {
     display: block;
     background-color: rgba(0, 0, 0, 0.92);
