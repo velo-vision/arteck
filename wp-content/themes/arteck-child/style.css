@@ -274,7 +274,7 @@ input[type=text], input[type=email], textarea {
   color: #fff !important;
   font-weight: bold !important;
   text-transform: uppercase;
-  margin: 20px 18px !important
+  margin: 10px 18px !important
 }
 
 /***galeria fotos**/
@@ -296,6 +296,12 @@ input[type=text], input[type=email], textarea {
     margin-bottom: 15px;
 }
 
+.subtitulo-gal{
+  margin-left: 20px;
+}
+.gorditas span{
+  font-weight: bold !important;
+}
 /**medias Query**/
 
 @media screen and (min-width: 1920px) and (max-width: 2560px) {

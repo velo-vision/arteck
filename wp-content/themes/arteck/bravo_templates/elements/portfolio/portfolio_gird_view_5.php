@@ -39,25 +39,18 @@
 						</div>
 						<div class="portfolio-work-detail">
 							<h3 class="titulo-cat"><?php the_title();?></h3>
-						<!-- <?php the_excerpt();?> -->
-							<!-- <div class="margin-20"></div>
-							<a class="button" href="<?php the_permalink();?>"><?php esc_html_e('Buy This Photo','bs-smarty') ?></a>
-							<div class="margin-30"></div> -->
-							<!-- <div class="links-box">
-								<span class="links-box-text"><?php esc_html_e('Share:','bs-smarty') ?></span>
-								<a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ;?>" target="_blank">
-									<img alt="<?php esc_html_e('facebook','bs-smarty')?>" src="<?php echo BravoAssets::$asset_url; ?>/images/share/facebook.png">
-								</a>
-								<a href="https://plus.google.com/share?url=<?php the_permalink();?>" target="_blank">
-									<img alt="<?php esc_html_e('google plus','bs-smarty')?>" src="<?php echo BravoAssets::$asset_url; ?>/images/share/google_plus.png">
-								</a>
-								<a href="https://twitter.com/home?status=<?php the_permalink();?>" target="_blank">
-									<img alt="<?php esc_html_e('twitter','bs-smarty')?>" src="<?php echo BravoAssets::$asset_url; ?>/images/share/twitter.png">
-								</a>
-								<a href="https://pinterest.com/pin/create/button/?url=<?php the_permalink();?>&media=<?php the_title();?>&description=<?php the_title();?>" target="blank">
-									<img alt="<?php esc_html_e('pinterest','bs-smarty')?>" src="<?php echo BravoAssets::$asset_url; ?>/images/share/pinterest.png">
-								</a>
-							</div> -->
+						<!-- <div class="subtitulo-gal"><?php the_excerpt();?></div> -->
+							<div class="col-sm-12 col-md-12 col-lg-12">
+								<div class="col-sm-4 col-md-4 col-lg-4 gorditas">
+									<span>Año: </span><?php echo the_field("ano"); ?>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4 gorditas">
+									<span>Ubicación: <?php echo the_field("ubicacion"); ?></span>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4 gorditas">
+									<span>Status: </span><?php echo the_field("status"); ?>
+								</div>
+							</div>
 						</div>
 						<div class="portfolio-work-nav">
 							<a class="popup-window-close-trigger"><i class="fa fa-th"></i></a>

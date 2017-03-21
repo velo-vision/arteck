@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: me664
- * Date: 3/1/15
- * Time: 5:47 PM
+ * Created by Velosoft.
  */
 ?>
 

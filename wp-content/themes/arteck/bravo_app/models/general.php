@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: me664
- * Date: 2/28/15
- * Time: 10:07 PM
+ * Created by Velosoft.
  */
 
 if (!class_exists('BravoGeneral')) {
@@ -54,7 +51,7 @@ if (!class_exists('BravoGeneral')) {
         static function _change_archive_title($title)
         {
             if(is_search()){
-                $title=sprintf(esc_html__("Search Result for: %s",'bs-smarty'),get_query_var('s'));
+                $title=sprintf(esc_html__("Resultados: %s",'bs-smarty'),get_query_var('s'));
             }
             return $title;
         }

@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: me664
- * Date: 3/1/15
- * Time: 6:18 PM
+ * Created by Velosoft.
  */
 get_header();
 
