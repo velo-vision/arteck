@@ -1,10 +1,7 @@
 /*
 Theme Name:     Arteck
-Description:    
-Author:         admin
+Author:         Velosoft
 Template:       arteck
-
-(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
 
 body, html {
@@ -193,14 +190,6 @@ input[type=text], input[type=email], textarea {
     text-transform: uppercase;
 }
 
-/*@media (min-width: 1860px){
-.section-content {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 125px 0px 60px 400px !important;
-}
-}*/
-
 .portfolio-work,
 .portfolio-work-layout2 {
   position: relative;
@@ -211,13 +200,6 @@ input[type=text], input[type=email], textarea {
     background-color: transparent;
     color: #959595;
 }
-
-/*.portfolio-work .portfolio-work-detail,
-.portfolio-work-layout2 .portfolio-work-detail {
-  font-size: 16px;
-  color: #707070;
-  padding: 0px 24px 0px 24px;
-}*/
 
 .centrado-img{
     text-align: center;
@@ -243,8 +225,7 @@ input[type=text], input[type=email], textarea {
   display: none;
 }
 
-.owl-carousel.black-arrows > .owl-controls .owl-next,
-.owl-carousel.black-arrows > .owl-controls .owl-prev {
+.owl-carousel.black-arrows > .owl-controls .owl-next,.owl-carousel.black-arrows > .owl-controls .owl-prev {
   width: 40px;
   height: 40px;
   font-size: 23px;
@@ -285,8 +266,6 @@ input[type=text], input[type=email], textarea {
   padding:20px !important;
 }
 
-
-
 .page-numbers .current {
   background-color: transparent !important;
 }
@@ -299,9 +278,11 @@ input[type=text], input[type=email], textarea {
 .subtitulo-gal{
   margin-left: 20px;
 }
+
 .gorditas span{
   font-weight: bold !important;
 }
+
 .sepracion-personalizada{
   margin-bottom: 15px !important;
 }
@@ -309,18 +290,24 @@ input[type=text], input[type=email], textarea {
 .nopadding{
   padding-right: 0px !important;
 }
+
+.content-sidebar {
+  display: none;
+}
 /**medias Query**/
 
 @media screen and (min-width: 1920px) and (max-width: 2560px) {
   .portfolio-work .portfolio-work-img {
     width: 1200px !important;
   }
+
   .portfolio-work, .portfolio-work-layout2 {
     position: relative;
     overflow: auto;
     background-color: #1b1b1b;
     width: 90.5%;
   }
+
 }
 
 
@@ -328,21 +315,25 @@ input[type=text], input[type=email], textarea {
   .container {
     width: 1387px !important;
   }
+  
   .portfolio-work .portfolio-work-img {
     width: 1200px !important;
   }
+  
   .portfolio-work, .portfolio-work-layout2 {
     position: relative;
     overflow: auto;
     background-color: #1b1b1b;
     width: 90%;
   }
+
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1680px) {
   .container {
     width: 1032px !important;
   }
+  
   .portfolio-work .portfolio-work-img {
     width: 960px !important;
   }
@@ -356,9 +347,11 @@ input[type=text], input[type=email], textarea {
   .owl-carousel.black-arrows > .owl-controls .owl-prev {
     left: 84% ;
   }
+  
   .titulo-cat {
     margin: 21px 0 !important;
   }
+  
   .owl-carousel.black-arrows > .owl-controls .owl-next, .owl-carousel.black-arrows > .owl-controls .owl-prev {
     top: 104.5%;
   }
@@ -369,66 +362,70 @@ input[type=text], input[type=email], textarea {
     left: 86%;
     border-radius: 50% !important;
   }
-    #menu.active {
+  
+  #menu.active {
+    left: 0px;
+  }
+  
+  #menu .menu-container {
+    background: #000;
+    opacity: .8;
+}
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 992px) {
+  .owl-carousel.black-arrows > .owl-controls .owl-prev {
+    left: 80%;
+    border-radius: 50% !important;
+  }
+  
+  .owl-carousel.black-arrows > .owl-controls .owl-next {
+    right: 4%;
+    border-radius: 50% !important;
+  }
+  
+  #menu.active {
+    left: 0px;
+  }
+      
+  #menu .menu-container {
+    background: #000;
+    opacity: .8;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+  .owl-buttons{
+    display: none;
+  }
+  
+  .titulo-cat {
+    font-size: 13px;   
+    text-align: center;
+  }
+
+  .page-top-heading {
+      font-size: 37px !important;
+      text-align: center;
+    }
+
+  .fotos-size-galeri{
+    width: 250px !important;
+    padding: 10px !important;
+  }
+
+  .portfolio-layout2, .portfolio-layout3, .portfolio-layout4, .portfolio-layout5, .portfolio-layout6, .portfolio-layout7, .portfolio-layout8 {
+    margin-top: 0px !important;
+  }
+  #menu.active {
     left: 0px;
   }
   #menu .menu-container {
     background: #000;
     opacity: .8;
-}
-}
-
-@media screen and (min-width: 700px) and (max-width: 992px) {
-.owl-carousel.black-arrows > .owl-controls .owl-prev {
-    left: 80%;
-    border-radius: 50% !important;
   }
-.owl-carousel.black-arrows > .owl-controls .owl-next {
-    right: 4%;
-    border-radius: 50% !important;
 }
-  #menu.active {
-    left: 0px;
-  }
-    #menu .menu-container {
-    background: #000;
-    opacity: .8;
-}
-}
-
-@media screen and (min-width: 200px) and (max-width: 700px) {
-.owl-buttons{
-  display: none;
-}
-.titulo-cat {
-  font-size: 13px;   
-  text-align: center;
-}
-
-.page-top-heading {
-    font-size: 37px !important;
-    text-align: center;
-  }
-
-.fotos-size-galeri{
-  width: 250px !important;
-  padding: 10px !important;
-}
-
-.portfolio-layout2, .portfolio-layout3, .portfolio-layout4, .portfolio-layout5, .portfolio-layout6, .portfolio-layout7, .portfolio-layout8 {
-  margin-top: 0px !important;
-}
-  #menu.active {
-    left: 0px;
-  }
-    #menu .menu-container {
-    background: #000;
-    opacity: .8;
-}
-}
-
-
-
 
 @media (min-width: 1400px) {
    .portfolio-work .portfolio-work-img {
