@@ -11,7 +11,7 @@
 		<h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
 		<p><?php echo strip_tags( apply_filters( 'the_excerpt', get_the_excerpt() ) ) ?></p>
 
-		<div class="blog-details">
+		<!-- <div class="blog-details">
 			<?php
 			printf(esc_html__('By %s','bs-smarty'),'<a href="'.get_author_posts_url( get_the_author_meta( 'ID' ) ).'">'.get_the_author().'</a> ');
 			echo "&nbsp;";
@@ -25,6 +25,6 @@
 
 
 			printf(esc_html__('Tags: %s','bs-smarty'),get_the_tag_list(false,', '));
-			?></div>
+			?></div> -->
 	</div>
 </article>

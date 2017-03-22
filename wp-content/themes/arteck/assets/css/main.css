@@ -1305,13 +1305,13 @@ textarea {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.blog-layout1 .blog-img.blog-img-hover:hover .blog-img-detail,
+/*.blog-layout1 .blog-img.blog-img-hover:hover .blog-img-detail,
 .blog-layout2 .blog-img.blog-img-hover:hover .blog-img-detail,
 .blog-layout3 .blog-img.blog-img-hover:hover .blog-img-detail,
 .blog-layout-big .blog-img.blog-img-hover:hover .blog-img-detail,
 .blog-layout-single .blog-img.blog-img-hover:hover .blog-img-detail {
   background-color: rgba(1, 186, 176, 0.54);
-}
+}*/
 .blog-layout1 .blog-img.blog-img-hover:hover .blog-img-detail-inner,
 .blog-layout2 .blog-img.blog-img-hover:hover .blog-img-detail-inner,
 .blog-layout3 .blog-img.blog-img-hover:hover .blog-img-detail-inner,
