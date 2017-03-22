@@ -276,16 +276,16 @@ input[type=text], input[type=email], textarea {
   text-transform: uppercase;
   margin: 10px 18px !important
 }
-
+.sinpadding{
+  padding: 0px !important!;
+}
 /***galeria fotos**/
 .fotos-size-galeri{
   width: 400px !important;
   padding:20px !important;
 }
 
-.nopadding{
-  padding: 0px !important;
-}
+
 
 .page-numbers .current {
   background-color: transparent !important;
@@ -301,6 +301,13 @@ input[type=text], input[type=email], textarea {
 }
 .gorditas span{
   font-weight: bold !important;
+}
+.sepracion-personalizada{
+  margin-bottom: 15px !important;
+}
+
+.nopadding{
+  padding-right: 0px !important;
 }
 /**medias Query**/
 
