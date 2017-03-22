@@ -107,7 +107,7 @@
 		<?php
 		$html = @ob_get_clean();
 		BravoPortfolio::addFooterHtml( $html );
-	} 
+	}
 ?>
 <section class="single-page">
 	<div class="section-content ">
@@ -152,6 +152,7 @@
 							}
 						}
 						?>
+
 
 						<article class="col-xxxl-12-5 col-xxl-3 col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item <?php echo esc_attr( $term_class ) ?> fotos-size-galeri">
 							<div class="portfolio-item-content popup-window-trigger"

@@ -121,7 +121,7 @@
 											<div class="portfolio-img-detail-content">
 												<div class="portfolio-item-heading">
 													<!-- <div class="portfolio-item-cat ht_blue">
-														<?php // the_terms( get_the_ID(), 'portfolio_cat', '', ', ', '' ); ?> 
+														<?php // the_terms( get_the_ID(), 'portfolio_cat', '', ', ', '' ); ?>
 
 													</div> -->
 													<?php the_title();?>
