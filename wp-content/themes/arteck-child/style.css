@@ -191,7 +191,11 @@ input[type=text], input[type=email], textarea {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-
+/*busqueda*/
+.blog-layout1 .blog-img.blog-img-hover:hover .blog-img-detail, .blog-layout2 .blog-img.blog-img-hover:hover .blog-img-detail, .blog-layout3 .blog-img.blog-img-hover:hover .blog-img-detail, .blog-layout-big .blog-img.blog-img-hover:hover .blog-img-detail, .blog-layout-single .blog-img.blog-img-hover:hover .blog-img-detail {
+   background-color: rgba(194, 194, 194, 0.5);
+}
+/**/
 .mayuscula{
     text-transform: uppercase;
 }
