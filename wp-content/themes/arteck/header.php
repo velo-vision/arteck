@@ -114,7 +114,7 @@ if(bravo_get_option('gen_enable_preload')=='on') {
                     <?php echo BravoTemplate::load_view('menu-content') ?>
                 </div>
                 <div class="menu-bottom">
-                    <div class="text-center" style="margin-top:10px;">
+                    <div class="text-center color-redes" style="margin-top:10px;">
                         <?php
                             $social = bravo_get_option('gen_social_list',array());
                             if(!empty($social)):foreach($social as $value):
