@@ -1,18 +1,13 @@
 /*
 Theme Name:     Arteck
-<<<<<<< HEAD
-Description:
-Author:         admin
-=======
 Author:         Velosoft
->>>>>>> esteban
 Template:       arteck
 */
 
 body, html {
 
 	font-family: 'Montserrat', sans-serif !important;
-	font-size: 1em !important;
+	font-size: 1em !important; 
 }
 
 h1, h2, h3, h4, h5, h6, span, p {
@@ -127,7 +122,7 @@ input[type=text], input[type=email], textarea {
     border-radius: 0px !important;
     font-weight: 200 !important;
     padding: 20px !important;
-}
+} 
 
 /*/* PROYECTOS */
 
@@ -183,7 +178,6 @@ input[type=text], input[type=email], textarea {
   width: 100%;
   height: 100%;
   content: '';
- /* background-color: rgba(1, 186, 176, 0.54);*/
   background-color: rgba(194, 194, 194, 0.5);
   opacity: 0;
   -webkit-transition: all 0.2s ease-out;
@@ -193,51 +187,24 @@ input[type=text], input[type=email], textarea {
 }
 /*busqueda*/
 .blog-layout1 .blog-img.blog-img-hover:hover .blog-img-detail, .blog-layout2 .blog-img.blog-img-hover:hover .blog-img-detail, .blog-layout3 .blog-img.blog-img-hover:hover .blog-img-detail, .blog-layout-big .blog-img.blog-img-hover:hover .blog-img-detail, .blog-layout-single .blog-img.blog-img-hover:hover .blog-img-detail {
-   background-color: rgba(194, 194, 194, 0.5);
+    background-color: rgba(226, 25, 176, 0.54);
 }
 /**/
 .mayuscula{
     text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-@media (min-width: 1860px){
-.section-content {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 125px 0px 60px 400px !important;
-}
-}
-
-.portfolio-work, .portfolio-work-layout2 {
-    position: relative;
-    overflow: auto;
-    background-color: #000;
-    width: 81%;
-=======
 .portfolio-work,
 .portfolio-work-layout2 {
   position: relative;
   overflow: auto;
   background-color: #1b1b1b;
->>>>>>> esteban
 }
-
 .page-numbers .next, .page-numbers .prev {
     background-color: transparent;
     color: #959595;
 }
 
-<<<<<<< HEAD
-.portfolio-work .portfolio-work-detail,
-.portfolio-work-layout2 .portfolio-work-detail {
-  font-size: 16px;
-  color: #707070;
-  padding: 0px 24px 0px 24px;
-}
-
-=======
->>>>>>> esteban
 .centrado-img{
     text-align: center;
 }
@@ -274,9 +241,6 @@ input[type=text], input[type=email], textarea {
   bottom: auto;
   border: solid 2px #fff;
   opacity: 1 !important;
-  /*-webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;*/
 }
 
 .owl-carousel.black-arrows > .owl-controls .owl-prev {
@@ -311,7 +275,7 @@ input[type=text], input[type=email], textarea {
 }
 
 #menu .menu-content {
-    padding: 0 30px;
+    padding: 0 30px; 
     margin-bottom: 15px;
 }
 
@@ -334,11 +298,6 @@ input[type=text], input[type=email], textarea {
 .content-sidebar {
   display: none;
 }
-
-.color-redes a i{
-  color:#fff;
-}
-
 /**medias Query**/
 
 @media screen and (min-width: 1920px) and (max-width: 2560px) {
@@ -441,25 +400,12 @@ input[type=text], input[type=email], textarea {
 }
 
 @media screen and (min-width: 200px) and (max-width: 700px) {
-<<<<<<< HEAD
-.owl-buttons{
-  display: none;
-}
-.titulo-cat {
-  font-size: 13px;
-  text-align: center;
-}
-
-.page-top-heading {
-    font-size: 37px !important;
-=======
   .owl-buttons{
     display: none;
   }
   
   .titulo-cat {
     font-size: 13px;   
->>>>>>> esteban
     text-align: center;
   }
 
@@ -492,3 +438,4 @@ input[type=text], input[type=email], textarea {
   }
 
 }
+
