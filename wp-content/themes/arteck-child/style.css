@@ -334,6 +334,11 @@ input[type=text], input[type=email], textarea {
 .content-sidebar {
   display: none;
 }
+
+.color-redes a i{
+  color:#fff;
+}
+
 /**medias Query**/
 
 @media screen and (min-width: 1920px) and (max-width: 2560px) {
